@@ -1,0 +1,6 @@
+interface:
+  display_name: "JD 证据型简历制作"
+  short_description: "逐轮核实求职经历，匹配岗位能力与软技能，交付可投递 Word 和 PDF 简历"
+  default_prompt: "请使用 $jd-evidence-resume，根据我提供的岗位 JD，先逐轮问问题核实经历，再选最匹配的证据，制作可直接投递的 Word 和 PDF 简历。"
+policy:
+  allow_implicit_invocation: true
